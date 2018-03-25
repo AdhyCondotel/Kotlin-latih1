@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutActionClick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_margin="9dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title Event : PT. Ammmase Sejati" />
+
+        <TextView
+            android:id="@+id/textViewRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Room : BallRoom LT 6"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewTglEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Date : 10/10/2018  -  12/10/2018"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewTema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|end"
+            android:maxLines="2"
+            android:text="These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
